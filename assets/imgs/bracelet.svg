@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+
+<style>
+  .shadow{ filter:url(#shadow) }
+  .shine{ opacity:.15 }
+</style>
+<defs>
+  <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+    <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000" flood-opacity="0.15"/>
+  </filter>
+  <linearGradient id="grad1" x1="0" x2="1" y1="0" y2="1">
+    <stop offset="0%" stop-color="#BDE0FE"/>
+    <stop offset="100%" stop-color="#FFD6E7"/>
+  </linearGradient>
+</defs>
+
+<rect width="100%" height="100%" rx="32" fill="white"/>
+<ellipse cx="150" cy="160" rx="80" ry="45" fill="none" stroke="#ffb8d6" stroke-width="12" class="shadow"/>
+<circle cx="230" cy="160" r="10" fill="#BDE0FE" class="shadow"/>
+</svg>
